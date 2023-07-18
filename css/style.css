@@ -10,6 +10,7 @@ body {
 
 .viola {
 color: #7289da;
+text-decoration: none;
 }
 
 .IB {
@@ -173,6 +174,9 @@ header {
 .star {
   background-image: url(../img/stars.svg);
   padding: 40px 0;
+  background-size: 400px;
+  background-repeat: no-repeat;
+  background-position: 310px 10px;
 }
 
 .dload {
@@ -216,21 +220,32 @@ padding-right: 8px;
   list-style: none;
   line-height: 30px;
   padding-top: 30px;
+  padding: 20px;
 }
 
-.final {
-  height: 40px;
-  width: 800px;
-  max-width: 1200px;
-  min-width: 700px;
-  background-color: white;
-  margin: 0 auto ;
-  display: flex;
-  align-items: center;
+.items {
+  text-decoration: none;
+  color: white;
+}
+
+.sotto {
   justify-content: space-between;
+  border-bottom: 1px solid #7289da;
 }
 
 .foot-logo {
   background-color: cadetblue;
   border: 1px dashed black;
+}
+
+.base {
+  justify-content: space-between;
+  align-items: start;
+  padding-bottom: 50px;
+}
+
+.violet {
+  background-color: #7289da;
+  color: white;
+  border: 1px solid #7289da;
 }
