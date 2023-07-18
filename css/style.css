@@ -8,6 +8,10 @@ body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.viola {
+color: #7289da;
+}
+
 .IB {
   display: inline-block;
 }
@@ -28,10 +32,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.BBW {
-  border-bottom: 1px solid white;
 }
 
 .flex {
@@ -190,32 +190,32 @@ header {
   height: 13px;
 }
 
+.italy {
+  font-size: .8rem;
+  color: white;
+}
+
+.social {
+padding-top: 20px;
+color: white;
+}
+
+.social i {
+padding-right: 8px;
+}
+
 .titolo-foot {
   font-size: 1.5rem;
   color: #7289da;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
-.foot {
-  height: 300px;
-  max-width: 1200px;
-  width: 800px;
-  min-width: 700px;
-  background-color: white;
-  margin: 0 auto;
-  border-bottom: 1px solid white;
-}
-
-.big-foot {
-  width: auto;
-  height: 100%;
-  border: 1px solid black;
-}
-
-.small-foot {
-  width: calc(100%/6);
-  height: 100%;
-  background-color: chartreuse;
-  border: 1px dashed white;
+.list {
+  color: white;
+  list-style: none;
+  line-height: 30px;
+  padding-top: 30px;
 }
 
 .final {
