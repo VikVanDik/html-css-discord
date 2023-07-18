@@ -69,6 +69,10 @@ font-size: .8rem;
   display: inline-block;
 }
 
+.centro {
+  text-align: center;
+}
+
 /* header */
 
 header {
@@ -162,15 +166,19 @@ header {
   background-color: pink;
 }
 
-.sec-container-big {
-  height: 500px;
-  max-width: 1200px;
-  width: 800px;
-  min-width: 700px;
-  border: 1px solid black;
-  background-color: green;
-  margin: 0 auto;
+.star {
+  background-image: url(../img/stars.svg);
+  padding: 40px 0;
 }
+
+.dload {
+  background-color: #7289da;
+  color: black;
+  padding: 10px 20px;
+  width: 150px;
+  border: 1px solid #7289da;
+}
+
 /* footer */
 
 .foot {
