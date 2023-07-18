@@ -46,6 +46,10 @@ body {
   padding: 5px 0 30px;
 }
 
+.pad-social{
+  padding: 30px 0;
+}
+
 .pad-small {
   padding-top: 10px;
 }
@@ -181,6 +185,16 @@ header {
 
 /* footer */
 
+.ita {
+  width: 20px;
+  height: 13px;
+}
+
+.titolo-foot {
+  font-size: 1.5rem;
+  color: #7289da;
+}
+
 .foot {
   height: 300px;
   max-width: 1200px;
@@ -192,9 +206,8 @@ header {
 }
 
 .big-foot {
-  width: calc(100%/3);
+  width: auto;
   height: 100%;
-  background-color: coral;
   border: 1px solid black;
 }
 
